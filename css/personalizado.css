@@ -1,0 +1,21 @@
+body{
+	background-color:#b3dcfe;
+}
+h1{
+	font-size:50px;
+	font-weight:bold;
+	color:#330198;
+}
+p{
+	font-size:15px;
+	
+}
+td{
+	font-size:18px;
+	color:#6400FF;
+}
+table{	
+	padding: 15px;
+	border:10px solid #3301FF;
+	border-style:dotted;
+}

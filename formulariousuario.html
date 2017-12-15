@@ -1,0 +1,101 @@
+<html>
+<meta charset="utf-8">
+	<title>
+		Nuevo usuario
+	</title>
+	<body bgcolor="b3dcfe">
+
+		<table align=center>
+		<form>			
+		<thead>
+			<td colspan="4" align="center">			
+			<b><font size="45">Alta de nuevo <br> usuario</font></b>
+			</td>
+		</thead>
+		<tbody>
+
+			<tr>
+				<td><type="Usuario" name="USUARIO">Usuario:</td>
+				<td><input>*</td>
+			</tr>
+			<tr>
+				<td><type="Contraseña" name="CONTRASEÑA">Contraseña:</td>
+				<td><input>*</td>
+			</tr>
+			<tr>
+				<td><type="Nombre" name="NOMBRE">Nombre:</td>
+				<td><input>*</td>
+			</tr>
+			<tr>
+				<td><type=Apellido name="APELLIDO">Apellido:</td>
+				<td><input>*</td>
+			</tr>
+			<tr>
+				<td><type="DNI" name="DNI">DNI: </td>
+				<td><input></td>
+			</tr>
+			<tr>
+				<td><type="Genero" name="GENERO">Genero: </td>
+				<td> 
+				<INPUT type="radio" name="estado" value="Soltero">Hombre<INPUT type="radio" name="estado" value="Casado">Mujer<BR>
+				</td>
+			</tr>
+			<tr>
+				<td><type="Direccion" name="DIRECCION">Direccon: </td>
+				<td><input></td>
+			</tr>
+			<tr>
+				<td><type="Ciudad" name="CIUDAD">Ciudad: </td>
+				<td><select name="CIUDAD">
+				<option selected value="0">ciudad</option>
+					<optgroup label="Mallorca">
+					<option value="1">Palma de Mallorca</option>
+					<option value="2">Inca</option>				
+					<option value="3">Calvia</option>				
+					<option value="4">Alcudia</option>
+					<optgroup label="Menorca">
+					<option value="1">Mahon</option>
+					<option value="2">Ciutadella</option>				
+					<option value="3">Alaior</option>				
+					<option value="4">Fornells</option>
+					<optgroup label="Ibiza">
+					<option value="1">Sant Antoni de Portmany</option>
+					<option value="2">Portinatx</option>				
+					<option value="3">Sant Josep de sa Talaia</option>				
+				</td>
+
+
+			</tr>
+			<tr>
+				<td valign="top"><type="AFICIONES" name="Aficiones">Aficiones: </td>
+				<td>
+					<INPUT type="checkbox" name="sistoper" value="deporte">Deporte<BR>
+     					<INPUT type="checkbox" name="sistoper" value="lectura">Lectura<BR>
+      					<INPUT type="checkbox" name="sistoper" value="tecnologia">Tecnologia<BR>
+      					<INPUT type="checkbox" name="sistoper" value="Cine">Cine<BR>
+      					<INPUT type="checkbox" name="sistoper" value="Musica">Musica<BR>
+     					<INPUT type="checkbox" name="sistoper" value="Otros">Otros
+				</td>
+			</tr>
+			<tr>
+				<td valign=top><type="Observaciones" name="OBSERVACION">Observaciones: </td>
+				<td><textarea rows="8" cols="33"></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Enviar"/></td>
+				<td align="right"><input type="reset" value="Borrar"/></td>
+			</tr>
+		</form>
+			<td colspan="2" align="center">
+				
+				<input type="button" value="Inicio" onClick="location.href='index.html'">
+				
+			</td>
+
+		</tbody>	
+		</table>
+
+	</body>
+
+</meta>
+</html>
